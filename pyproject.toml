@@ -1,0 +1,15 @@
+[project]
+name = "leetcode"
+version = "0.1.0"
+description = "My LeetCode solutions"
+authors = [
+    {name = "larrylcc", email = "larrylcc@outlook.com"},
+]
+dependencies = []
+requires-python = ">=3.11,<3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

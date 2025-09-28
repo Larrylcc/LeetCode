@@ -1,0 +1,34 @@
+# 虚拟环境
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python 缓存文件
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE 配置文件 (PyCharm, VSCode)
+# IDE configuration files
+.idea/
+.vscode/
+
+# 操作系统生成的文件
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# 日志和数据库文件
+# Log and database files
+*.log
+*.sql
+*.sqlite3
+
+# 其他构建产物
+# Other build artifacts
+/build/
+/dist/
+*.egg-info/
