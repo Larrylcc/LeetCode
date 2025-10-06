@@ -2,7 +2,7 @@ from Solution import Solution
 
 def main():
     solution_instance=Solution()
-    array =[[10,16],[2,8],[1,6],[7,12]]
+    array =[[1,2],[2,3],[3,4],[4,5]]
     result = solution_instance.findMinArrowShots(array)
     print(result)
 
