@@ -1,5 +1,4 @@
-import keyword
-print(keyword.kwlist)
-counter=100
-miles=1000
-name="runoob"
+num=[1,2,3,0]
+num.insert(2,4)
+num.pop(2)
+print(num)
