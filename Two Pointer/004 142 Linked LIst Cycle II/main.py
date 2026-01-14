@@ -3,9 +3,9 @@ from Review import Review
 
 def main():
     solution_instance=Review()
-    s = "ADOBECODEBANC"
-    t = "ABC"
-    ans = solution_instance.minWindow(s,t)
+    head = [3,2,0,-4]
+    pos = 1
+    ans = solution_instance.detectCycle(head, pos)
     print(ans)
 
 if __name__ == '__main__':
