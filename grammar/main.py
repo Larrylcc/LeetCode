@@ -1,3 +1,3 @@
-import math
-dic = ["apple", "banana"]
-print(len(dic))
+test=[]
+test.append("hello")
+print(test)
